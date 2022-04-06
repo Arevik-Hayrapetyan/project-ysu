@@ -1,0 +1,27 @@
+.card-container {
+}
+.answers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  text-align: center;
+  padding: 15px;
+  color: aliceblue;
+}
+.question {
+  text-align: center;
+  color: aliceblue;
+}
+.item {
+  border: 1px solid rgba(132, 132, 190, 0.671);
+  padding: 20px;
+  background-color: rgb(125, 150, 197);
+  cursor: pointer;
+}
+.trueAnswer {
+  background-color: green;
+}
+.falseAnswer {
+  background-color: brown;
+}

@@ -1,0 +1,23 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.page-item {
+  list-style: none;
+}
+.text-primary {
+  color: aliceblue;
+}
+.page-link {
+  color: aliceblue;
+  text-decoration: none;
+}
